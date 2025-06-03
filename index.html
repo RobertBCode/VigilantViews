@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Count Monitor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Counteracting Viewbotting Tool</h1>
+    <form id="viewForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="platform">Select Platform:</label>
+        <select id="platform" name="platform">
+            <option value="twitch">Twitch</option>
+            <option value="kick">Kick</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
